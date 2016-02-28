@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{2588DA93-6316-4A58-9921-1423BA42F002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinConsole", "WinConsole\WinConsole.csproj", "{1BC065E2-4E95-47AF-9FA1-126D8A0AE8F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibWin", "LibWin\LibWin.csproj", "{49ED144F-1B12-4F9C-9C82-CD1F92EEC90A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibDroid", "LibDroid\LibDroid.csproj", "{76CBF1F2-A89B-4BD7-85C3-9E907581C69F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibPCL", "LibPCL\LibPCL.csproj", "{2823B4CE-CAF0-4F4F-8165-61FD7CC64DA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91769314-9CBD-4DFA-92CD-C0054C3D0EEA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC065E2-4E95-47AF-9FA1-126D8A0AE8F0}.Debug|x86.ActiveCfg = Debug|x86
+		{1BC065E2-4E95-47AF-9FA1-126D8A0AE8F0}.Debug|x86.Build.0 = Debug|x86
+		{1BC065E2-4E95-47AF-9FA1-126D8A0AE8F0}.Release|x86.ActiveCfg = Release|x86
+		{1BC065E2-4E95-47AF-9FA1-126D8A0AE8F0}.Release|x86.Build.0 = Release|x86
+		{2823B4CE-CAF0-4F4F-8165-61FD7CC64DA6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2823B4CE-CAF0-4F4F-8165-61FD7CC64DA6}.Debug|x86.Build.0 = Debug|Any CPU
+		{2823B4CE-CAF0-4F4F-8165-61FD7CC64DA6}.Release|x86.ActiveCfg = Release|Any CPU
+		{2823B4CE-CAF0-4F4F-8165-61FD7CC64DA6}.Release|x86.Build.0 = Release|Any CPU
+		{49ED144F-1B12-4F9C-9C82-CD1F92EEC90A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49ED144F-1B12-4F9C-9C82-CD1F92EEC90A}.Debug|x86.Build.0 = Debug|Any CPU
+		{49ED144F-1B12-4F9C-9C82-CD1F92EEC90A}.Release|x86.ActiveCfg = Release|Any CPU
+		{49ED144F-1B12-4F9C-9C82-CD1F92EEC90A}.Release|x86.Build.0 = Release|Any CPU
+		{76CBF1F2-A89B-4BD7-85C3-9E907581C69F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{76CBF1F2-A89B-4BD7-85C3-9E907581C69F}.Debug|x86.Build.0 = Debug|Any CPU
+		{76CBF1F2-A89B-4BD7-85C3-9E907581C69F}.Release|x86.ActiveCfg = Release|Any CPU
+		{76CBF1F2-A89B-4BD7-85C3-9E907581C69F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
